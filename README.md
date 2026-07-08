@@ -47,7 +47,7 @@ I run small ventures where the product, the growth engine, and the automation be
 
 **AI & Growth Tooling**
 
-`Claude Code` · `Codex` · `MCP` · `n8n` · `Apollo API` · `Evolution API (WhatsApp)` · `Brevo` · `Obsidian`
+`Claude Code` · `Codex` · `MCP` · `n8n` · `Lead Enrichment APIs` · `Evolution API (WhatsApp)` · `Brevo` · `Obsidian`
 
 **Marketing Toolkit**
 
@@ -63,7 +63,7 @@ I don't claim to be a classically-trained software engineer — I direct AI codi
 |---|---|---|
 | **Product decisions** | Scope features, define data model, set priorities, approve/reject AI-proposed changes | Obsidian vault as single source of truth |
 | **Build execution** | AI agents write, deploy, and debug code under my direction | Claude Code, Codex |
-| **Automation & data** | Design outbound/lead pipelines, campaign logic, credit-efficient API usage | Apollo, n8n, Evolution API |
+| **Automation & data** | Design outbound/lead pipelines, campaign logic, credit-efficient API usage | n8n, Evolution API, lead enrichment APIs |
 | **Operations** | Run the production systems day-to-day, monitor, iterate | VPS + Traefik, cron, Telegram |
 
 ---
@@ -96,9 +96,9 @@ End-to-end system for finding decision-makers at target companies and running co
 
 | | |
 |---|---|
-| **Stack** | Apollo API, Python scraping layer, Brevo, Evolution API (WhatsApp) |
+| **Stack** | B2B contact enrichment API, Python scraping layer, Brevo, Evolution API (WhatsApp) |
 | **Scale** | 1,144 decision-makers revealed (892 emails) for a single trade-fair dataset; 3k+ monthly outbound emails across ~15 fairs |
-| **Performance** | Apollo reveal success rate improved from ~60% to 99.5% via a free-precheck-before-reveal technique |
+| **Performance** | Contact-reveal success rate improved from ~60% to 99.5% via a free-precheck-before-reveal technique |
 | **Impact** | Zero warmup cost outbound ramp (10 → 100 emails/day), cron-automated WhatsApp outreach |
 | **Repository** | Private (business-critical pipeline) |
 
@@ -174,7 +174,7 @@ End-to-end ownership of client communication and daily operations for a decorati
 
 | Recognition | Details |
 |---|---|
-| 🎯 Apollo Precheck Technique | Raised reveal success rate from ~60% to 99.5% on a 190-credit batch |
+| 🎯 Contact-Reveal Precheck Technique | Raised reveal success rate from ~60% to 99.5% on a 190-credit batch |
 | 📇 CRM Migration | Replaced a rejected off-the-shelf CRM with a custom system now in daily production use |
 | 📬 Outbound Ramp | Scaled outbound email from 10/day to 100/day with zero mailbox warmup cost |
 | 🏢 Decision-Maker Discovery | 1,144 decision-makers identified (892 emails) for a single trade-fair target list |
@@ -204,16 +204,7 @@ End-to-end ownership of client communication and daily operations for a decorati
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=karayunusemre2003-hue&show_icons=true&hide_border=true&theme=radical&bg_color=0d1117&title_color=A78BFA&icon_color=7C3AED&text_color=c9d1d9" />
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=karayunusemre2003-hue&hide_border=true&background=0d1117&stroke=7C3AED&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karayunusemre2003-hue&layout=compact&hide_border=true&theme=radical&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" />
-
-</div>
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=karayunusemre2003-hue&theme=radical&no-frame=true&margin-w=8&column=7)
 
 </div>
 
@@ -226,16 +217,6 @@ End-to-end ownership of client communication and daily operations for a decorati
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=karayunusemre2003-hue&theme=react-dark&bg_color=0d1117&color=A78BFA&line=7C3AED&point=ffffff&hide_border=true)
 
 </div>
-
-### Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/karayunusemre2003-hue/karayunusemre2003-hue/output/github-contribution-grid-snake-dark.svg)
-
-</div>
-
----
 
 ### Current Focus
 
