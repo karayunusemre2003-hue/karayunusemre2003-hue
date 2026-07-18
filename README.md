@@ -25,9 +25,10 @@
 
 I run small ventures where the product, the growth engine, and the automation behind it are all built by the same person — me, directing AI coding agents (Claude Code, Codex) to ship production systems instead of writing every line by hand.
 
-- 🚀 Founder of **TıraşTakvim** (barber/salon scheduling SaaS), **Akıllı Satış** (B2B lead intelligence & outbound) and **Exhibit SDR** (SDR-as-a-service for exhibition stand builders)
-- 🛠️ Built and operate a custom CRM (`yunus-crm`) in production, replacing an off-the-shelf tool that didn't fit the workflow
-- 🤖 Design multi-agent AI systems (personal automation stack: VPS + local orchestration, Telegram-driven, cron-scheduled) to run outreach, lead research and reporting with minimal manual work
+- 🚀 Founder of **TıraşTakvim** (barber/salon scheduling SaaS), **Akıllı Satış** (B2B growth engine, pivoting from lead intelligence into social media content services) and **Exhibit SDR** (SDR-as-a-service for exhibition stand builders)
+- 🌱 Building a KKAİ/ESG SaaS go-to-market as a partner on **CarbonXReport**
+- 🛠️ Built and operate a custom CRM (`yunus-crm`) in production, now with a full campaign engine (A/B tested outbound, auto reply tracking) replacing an off-the-shelf tool that didn't fit the workflow
+- 🤖 Design multi-agent AI systems (personal automation stack: laptop + VPS orchestration, Telegram-driven, cron-scheduled) to run outreach, lead research and reporting with minimal manual work
 - 📈 Background in digital marketing, operations and team coordination (DarkConcept — office + field team of 15-35 people)
 - 🌍 Currently based in Istanbul, exploring a remote/nomad transition
 
@@ -80,26 +81,24 @@ Purpose-built CRM after an off-the-shelf tool (Twenty CRM) didn't fit the sales 
 |---|---|
 | **Stack** | Next.js 14, better-sqlite3, Traefik (VPS reverse proxy) |
 | **Scale** | 582 leads synced (353 WhatsApp + 229 email), 300+ interactions tracked |
-| **Status** | Live at `crm.akillisatis.com.tr` |
+| **Status** | Live at `crm.akillisatis.com.tr`, campaign engine (A/B tested outbound, auto reply tracking) shipped and running in test mode |
 | **Impact** | Replaced a rejected off-the-shelf CRM; now the system of record for an active outbound sales operation |
 | **Repository** | Private (production business system) |
-
-Currently extending it with a campaign engine: A/B tested outbound send via Brevo, automated IMAP reply tracking, and Telegram alerts on results.
 
 </details>
 
 <details>
-<summary><b>📊 Akıllı Satış — B2B Lead Intelligence & Outbound Engine</b></summary>
+<summary><b>📊 Akıllı Satış — B2B Growth Engine (Data → Social Content Pivot)</b></summary>
 <br/>
 
-End-to-end system for finding decision-makers at target companies and running compliant, high-deliverability outbound campaigns.
+Started as an end-to-end system for finding decision-makers at trade-fair companies and running compliant, high-deliverability outbound campaigns; pivoted in mid-2026 into a social media content service for the same B2B customer base after validating demand signals.
 
 | | |
 |---|---|
-| **Stack** | B2B contact enrichment API, Python scraping layer, Brevo, Evolution API (WhatsApp) |
-| **Scale** | 1,144 decision-makers revealed (892 emails) for a single trade-fair dataset; 3k+ monthly outbound emails across ~15 fairs |
+| **Stack (outbound engine)** | B2B contact enrichment API, Python scraping layer, Brevo, Evolution API (WhatsApp) |
+| **Scale (outbound engine)** | 1,144 decision-makers revealed (892 emails) for a single trade-fair dataset; 3k+ monthly outbound emails across ~15 fairs |
 | **Performance** | Contact-reveal success rate improved from ~60% to 99.5% via a free-precheck-before-reveal technique |
-| **Impact** | Zero warmup cost outbound ramp (10 → 100 emails/day), cron-automated WhatsApp outreach |
+| **Current phase** | Repositioning as a social media content offer, pilot outreach list (300+ email/WhatsApp contacts) prepared |
 | **Repository** | Private (business-critical pipeline) |
 
 </details>
@@ -123,7 +122,7 @@ Outbound lead generation service for exhibition/stand-building companies: prospe
 <summary><b>🤖 Jarvis — Personal AI Operating System</b></summary>
 <br/>
 
-A dual-agent automation stack: a laptop-based orchestrator with full memory, paired with a VPS-based extension that runs proactively over Telegram.
+A dual-agent automation stack: a laptop-based orchestrator with full memory, paired with a VPS-based extension that runs proactively over Telegram. Currently migrating the VPS side from a Claude-relay setup to a Codex-backed agent (Hermes) for zero marginal cost.
 
 | | |
 |---|---|
@@ -131,6 +130,21 @@ A dual-agent automation stack: a laptop-based orchestrator with full memory, pai
 | **Scale** | Runs CRM sync, lead research, WhatsApp/email outreach, and daily state logging autonomously |
 | **Impact** | Reduced manual coordination across 4+ active ventures to an approval-only workflow |
 | **Repository** | Private |
+
+</details>
+
+<details>
+<summary><b>🌱 CarbonXReport — KKAİ/ESG SaaS Partnership</b></summary>
+<br/>
+
+Go-to-market partner (with co-founder Ali Rıza) on a carbon accounting / ESG reporting SaaS, selling into regulated-industry clients.
+
+| | |
+|---|---|
+| **Stack** | SaaS product & compliance positioning, B2B partnership sales |
+| **Scale** | Active deals in progress: Das Lager (proposal pending), Santa Farma (requires URS + 21 CFR Part 11 compliance) |
+| **Impact** | Extending personal venture portfolio into regulated B2B SaaS sales |
+| **Repository** | Private (partner-owned) |
 
 </details>
 
@@ -226,12 +240,13 @@ learning:
   - Deeper Next.js / production deployment practices
 
 building:
-  - CRM campaign engine (A/B tested outbound, auto reply tracking)
-  - Akıllı Satış lead pipeline scaling across new trade fairs
-  - TıraşTakvim go-to-market
+  - Akıllı Satış social media content pivot (outreach ramp-up)
+  - Exhibit SDR lead quality + outreach restart
+  - CarbonXReport partner deals (Das Lager, Santa Farma)
+  - yunus-crm campaign engine, phase 2 (lead detail views)
 
 exploring:
-  - Remote/nomad transition (Skopje base)
+  - Remote/nomad transition (Skopje base, target by August 2026)
   - Income diversification across ventures
 
 open_to:
