@@ -25,7 +25,7 @@
 
 I run small ventures where the product, the growth engine, and the automation behind it are all built by the same person — me, directing AI coding agents (Claude Code, Codex) to ship production systems instead of writing every line by hand.
 
-- 🚀 Founder of **TıraşTakvim** (barber/salon scheduling SaaS), **Akıllı Satış** (B2B growth engine, pivoting from lead intelligence into social media content services) and **Exhibit SDR** (SDR-as-a-service for exhibition stand builders)
+- 🚀 Founder of **TıraşTakvim** (barber/salon scheduling SaaS), [**Akıllı Satış**](https://akillisatis.com.tr) (B2B growth engine, pivoting from lead intelligence into social media content services) and **Exhibit SDR** (SDR-as-a-service for exhibition stand builders)
 - 🌱 Building a KKAİ/ESG SaaS go-to-market as a partner on **CarbonXReport**
 - 🛠️ Built and operate a custom CRM (`yunus-crm`) in production, now with a full campaign engine (A/B tested outbound, auto reply tracking) replacing an off-the-shelf tool that didn't fit the workflow
 - 🤖 Design multi-agent AI systems (personal automation stack: laptop + VPS orchestration, Telegram-driven, cron-scheduled) to run outreach, lead research and reporting with minimal manual work
